@@ -1,0 +1,104 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #fafbfc;
+    /* background: black; */
+    
+}
+
+* {
+    background-color: white;
+    padding : 0px;
+    margin: 0px;
+}
+#heading{
+  display: block;
+  height: 95px;
+  position: sticky;
+  top: 0 ;
+  border:  2px solid #28a745;;
+  box-sizing: border-box;
+  background-color:#28a745;;
+}
+#logo{
+
+ padding-left: 20px;
+ box-sizing: border-box;
+ background-color: #28a745;;
+ 
+}
+#logohead{
+    font-family: 'Oswald', sans-serif;
+    font-size: 65px;
+    box-sizing: border-box;
+    background-color: #28a745;;
+    color: #ffffffff;
+    display: flex;
+    justify-content: center; 
+}
+.container{
+   border: 1px solid #8c8f94;
+   border-radius: 5px;
+   width: 650px;
+   height: 700px;
+   background-color:  #ffffff;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   padding: 0 15px;
+   font-family: 'Poppins',sans-serif;
+   margin-top: 20px;
+   margin-left: 350px;
+   box-shadow: 0 9px 15px #8c8f94 ;
+   overflow: auto;
+}
+.intro-text p{
+    margin: 5px 0;
+    font-size: 13px;
+}
+.intro-text p a{
+    color: #121212;
+}
+form{
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    overflow: auto;
+}
+
+form input{
+    padding: 12px 7px;
+    outline: none;
+    border: 1px solid #8c8f94;
+    font-family: 'Poppins',sans-serif;
+    /* width: 98%; */
+    
+}
+form input:focus{
+    border-color: #16056b;
+}
+.check-box{
+    display: inline-flex;
+    /* width: 98%; */
+    margin-left: 10px;
+    border:1px solid black ;
+}
+.check-box label{
+    font-size: 18px;
+    padding: 0 5px;
+    /* width: 98%; */
+}
+form button {
+    border: none;
+    outline: none;
+    padding: 11px 0;
+    background: #16056b;
+    color: #fff;
+    font-size: 18px;
+    box-shadow: 0 7px 15px rgba(22,5,107,3);
+    font-family: 'Poppins',sans-serif;
+}
